@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 950px;
+}
+
+header {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+nav ul li {
+    margin-bottom: 40px;
+    padding: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+main {
+    background-color: grey;
+    border: 1px solid red;
+    color: white;
+}
+
+main article h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main section ul {
+    display: flex;
+    flex-direction: column;
+}
+
+main section ul li {
+    margin-bottom: 10px;
+}
